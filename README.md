@@ -65,7 +65,7 @@ void loop() {
   delay(1000);
   digitalWrite(13, LOW);
   delay(1000);
-}
+}```
 ## 🇩🇪 Deutsch
 ### 📖 Beschreibung
 Dies ist mein erstes Arduino-Projekt. Ich beginne mit Arduino durch ein einfaches LED-Blinkprogramm.
