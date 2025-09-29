@@ -38,28 +38,24 @@ void loop() {
   digitalWrite(13, LOW);   // LED'i kapat
   delay(1000);             // 1 saniye bekle
 }
-🌐 English
-📖 Description
+## 🌐 English
+### 📖 Description
 This is my first Arduino project. I'm starting with Arduino through a simple LED blink program.
 
-🛠️ Components Used
-Arduino Uno
+### 🛠️ Components Used
+-Arduino Uno
+-LED
+-220Ω Resistor
+-Breadboard
+-Jumper wires
 
-LED
-
-220Ω Resistor
-
-Breadboard
-
-Jumper wires
-
-🔧 Circuit Diagram
+### 🔧 Circuit Diagram
 LED long leg (+) → Digital Pin 13
 
 LED short leg (-) → 220Ω Resistor → GND
 
-💻 Code
-cpp
+### 💻 Code
+```cpp
 void setup() {
   pinMode(13, OUTPUT);
 }
@@ -70,28 +66,24 @@ void loop() {
   digitalWrite(13, LOW);
   delay(1000);
 }
-🇩🇪 Deutsch
-📖 Beschreibung
+## 🇩🇪 Deutsch
+### 📖 Beschreibung
 Dies ist mein erstes Arduino-Projekt. Ich beginne mit Arduino durch ein einfaches LED-Blinkprogramm.
 
-🛠️ Verwendete Komponenten
-Arduino Uno
+### 🛠️ Verwendete Komponenten
+-Arduino Uno
+-LED
+-220Ω Widerstand
+-Steckbrett
+-Verbindungskabel
 
-LED
-
-220Ω Widerstand
-
-Steckbrett
-
-Verbindungskabel
-
-🔧 Schaltplan
+### 🔧 Schaltplan
 LED langes Bein (+) → Digitalpin 13
 
 LED kurzes Bein (-) → 220Ω Widerstand → GND
 
-💻 Code
-cpp
+### 💻 Code
+```cpp
 void setup() {
   pinMode(13, OUTPUT);
 }
