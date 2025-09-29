@@ -37,7 +37,7 @@ void loop() {
   delay(1000);             // 1 saniye bekle
   digitalWrite(13, LOW);   // LED'i kapat
   delay(1000);             // 1 saniye bekle
-}
+}'
 ## 🌐 English
 ### 📖 Description
 This is my first Arduino project. I'm starting with Arduino through a simple LED blink program.
